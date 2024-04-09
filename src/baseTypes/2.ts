@@ -1,5 +1,14 @@
-let anything = -20;
-anything = 'Text';
-anything = {};
+let anything: [number, string, any];
+anything = [-20, 'Text', {}]; 
 
-export {};
+export { };
+    
+// Или так:
+
+// let anything: any = -20;
+// anything = 'Text';
+// anything = {};
+
+    
+    
+
